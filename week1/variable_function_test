@@ -1,0 +1,67 @@
+
+score = 100
+print(score)
+
+
+score = 80
+print(score)
+
+age = 12
+print("Emily's age is ", age)
+
+# A variable
+age = 13
+print("Helen's age is ", age)
+
+a = 3
+b = 4
+
+print("a + b = ", a + b)
+
+# A function
+def sum(a, b):
+   return a + b
+
+print("3 + 4 is: ", sum(3, 4))
+
+def minus(a, b):
+   return a - b
+
+print("3 + 4 is: ", minus(3, 4))
+
+def max(a, b):
+  if (a > b):
+    return a
+  else:
+    return b
+
+print("max is:", max(-6, -7))
+
+# this is a function to cacalu.....
+def minus(a, b):
+  if (a > b):
+    return a
+  else:
+    return b
+
+print("max is:", max(-6, -7))
+
+def max_3(a, b, c):
+  return max(max(a, b), c)
+
+print(" ------------- ")
+# Given a score, 
+# > 90 -- excellent
+# > 80, ---- good
+# --- normal
+
+def check_score(score):
+  print("score is:", score)
+  if (score > 90):
+    print("excellent")
+  elif (score > 80):
+    print("good")
+  else:
+    print("normal")
+
+check_score(55)
